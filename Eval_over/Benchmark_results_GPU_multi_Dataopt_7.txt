@@ -1,0 +1,40 @@
+duration on process 0: 6.25915
+Error: C[24000000] = 0 != 1000
+duration on process 0: 6.91705
+Error: C[0] = 0 != 1000
+duration on process 0: 7.04592
+Error: C[48000000] = 0 != 1000
+duration on process 0: 6.48996
+Error: C[48000000] = 0 != 1000
+duration on process 0: 6.00584
+Error: C[48000000] = 0 != 1000
+duration on process 0: 6.98704
+Error: C[0] = 0 != 1000
+duration on process 0: 19.5182
+Error: C[0] = 0 != 1000
+duration on process 0: 6.57945
+Error: C[16000000] = 0 != 1000
+duration on process 0: 5.92999
+Error: C[88000000] = 0 != 1000
+duration on process 0: 7.01453
+Error: C[40000000] = 0 != 1000
+duration on process 0: 6.30967
+Error: C[48000000] = 0 != 1000
+duration on process 0: 7.27565
+Error: C[0] = 0 != 1000
+duration on process 0: 6.11258
+Error: C[72000000] = 0 != 1000
+duration on process 0: 7.02576
+Error: C[64000000] = 0 != 1000
+duration on process 0: 6.88231
+Error: C[0] = 0 != 1000
+duration on process 0: 6.48958
+Error: C[0] = 0 != 1000
+duration on process 0: 9.74856
+Error: C[64000000] = 0 != 1000
+duration on process 0: 6.85158
+Error: C[48000000] = 0 != 1000
+duration on process 0: 6.48137
+Error: C[0] = 0 != 1000
+duration on process 0: 6.53827
+Error: C[32000000] = 0 != 1000

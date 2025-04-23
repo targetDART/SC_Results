@@ -1,0 +1,510 @@
+srun: [I] Partition set to 'c23g' due to chosen account 'rwth1270'.
+srun: [I] No output file given, set to: output_%j.txt
+srun: job 55937378 queued and waiting for resources
+srun: job 55937378 has been allocated resources
+slurmstepd: error: Can't propagate RLIMIT_NOFILE of 245760 from submit host: Invalid argument
+slurmstepd: error: Can't propagate RLIMIT_NOFILE of 245760 from submit host: Invalid argument
+slurmstepd: error: Can't propagate RLIMIT_NOFILE of 245760 from submit host: Invalid argument
+slurmstepd: error: Can't propagate RLIMIT_NOFILE of 245760 from submit host: Invalid argument
+slurmstepd: error: Can't propagate RLIMIT_NOFILE of 245760 from submit host: Invalid argument
+slurmstepd: error: Can't propagate RLIMIT_NOFILE of 245760 from submit host: Invalid argument
+slurmstepd: error: Can't propagate RLIMIT_NOFILE of 245760 from submit host: Invalid argument
+slurmstepd: error: Can't propagate RLIMIT_NOFILE of 245760 from submit host: Invalid argument
+Peano 4 (C) www.peano-framework.org
+build: 2d, with mpi (8 ranks), omp threading (89 threads), omp gpu support (21 gpus)
+ 32031000     00:00:00     rank:0       core:3       info         tarch::multicore::native(omp)::Core::configure()        omp_get_num_procs reports 96 while omp_get_max_threads reports 89. Take smaller value to avoid overbooking.
+ 30924000     00:00:00     rank:5       core:3       info         tarch::multicore::native(omp)::Core::configure()        omp_get_num_procs reports 96 while omp_get_max_threads reports 89. Take smaller value to avoid overbooking.
+ 31507000     00:00:00     rank:4       core:3       info         tarch::multicore::native(omp)::Core::configure()        omp_get_num_procs reports 96 while omp_get_max_threads reports 89. Take smaller value to avoid overbooking.
+ 30718000     00:00:00     rank:3       core:3       info         tarch::multicore::native(omp)::Core::configure()        omp_get_num_procs reports 96 while omp_get_max_threads reports 89. Take smaller value to avoid overbooking.
+ 31031000     00:00:00     rank:5       core:3       warning      tarch::multicore::native(omp)::Core::configure()        Number of configured threads (89) is bigger than available unmasked threads (23) (file:/work/as388453/Peano/src/tarch/multicore/omp/Core.cpp,line:63)
+ 31059000     00:00:00     rank:5       core:3       warning      tarch::multicore::native(omp)::Core::configure()        Unmasked threads: (oxxxxxxxxxxxxxxxxxxxxxxxoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo) (file:/work/as388453/Peano/src/tarch/multicore/omp/Core.cpp,line:64)
+ 30827000     00:00:00     rank:3       core:3       warning      tarch::multicore::native(omp)::Core::configure()        Number of configured threads (89) is bigger than available unmasked threads (23) (file:/work/as388453/Peano/src/tarch/multicore/omp/Core.cpp,line:63)
+ 30857000     00:00:00     rank:3       core:3       warning      tarch::multicore::native(omp)::Core::configure()        Unmasked threads: (oxxxxxxxxxxxxxxxxxxxxxxxoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo) (file:/work/as388453/Peano/src/tarch/multicore/omp/Core.cpp,line:64)
+ 32437000     00:00:00     rank:2       core:3       info         tarch::multicore::native(omp)::Core::configure()        omp_get_num_procs reports 96 while omp_get_max_threads reports 89. Take smaller value to avoid overbooking.
+ 32109000     00:00:00     rank:0       core:3       warning      tarch::multicore::native(omp)::Core::configure()        Number of configured threads (89) is bigger than available unmasked threads (23) (file:/work/as388453/Peano/src/tarch/multicore/omp/Core.cpp,line:63)
+ 32134000     00:00:00     rank:0       core:3       warning      tarch::multicore::native(omp)::Core::configure()        Unmasked threads: (oxxxxxxxxxxxxxxxxxxxxxxxoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo) (file:/work/as388453/Peano/src/tarch/multicore/omp/Core.cpp,line:64)
+ 32327000     00:00:00     rank:0       core:3       info         ::step()                                                Starting AlgorithmicStep [CreateGridButPostponeRefinement, #Trees=1, #Cells=0]
+ 31084000     00:00:00     rank:7       core:3       info         tarch::multicore::native(omp)::Core::configure()        omp_get_num_procs reports 96 while omp_get_max_threads reports 89. Take smaller value to avoid overbooking.
+ 32549000     00:00:00     rank:2       core:3       warning      tarch::multicore::native(omp)::Core::configure()        Number of configured threads (89) is bigger than available unmasked threads (23) (file:/work/as388453/Peano/src/tarch/multicore/omp/Core.cpp,line:63)
+ 32580000     00:00:00     rank:2       core:3       warning      tarch::multicore::native(omp)::Core::configure()        Unmasked threads: (oxxxxxxxxxxxxxxxxxxxxxxxoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo) (file:/work/as388453/Peano/src/tarch/multicore/omp/Core.cpp,line:64)
+ 31739000     00:00:00     rank:1       core:3       info         tarch::multicore::native(omp)::Core::configure()        omp_get_num_procs reports 96 while omp_get_max_threads reports 89. Take smaller value to avoid overbooking.
+ 31610000     00:00:00     rank:4       core:3       warning      tarch::multicore::native(omp)::Core::configure()        Number of configured threads (89) is bigger than available unmasked threads (23) (file:/work/as388453/Peano/src/tarch/multicore/omp/Core.cpp,line:63)
+ 31638000     00:00:00     rank:4       core:3       warning      tarch::multicore::native(omp)::Core::configure()        Unmasked threads: (oxxxxxxxxxxxxxxxxxxxxxxxoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo) (file:/work/as388453/Peano/src/tarch/multicore/omp/Core.cpp,line:64)
+ 31382000     00:00:00     rank:6       core:3       info         tarch::multicore::native(omp)::Core::configure()        omp_get_num_procs reports 96 while omp_get_max_threads reports 89. Take smaller value to avoid overbooking.
+ 31190000     00:00:00     rank:7       core:3       warning      tarch::multicore::native(omp)::Core::configure()        Number of configured threads (89) is bigger than available unmasked threads (23) (file:/work/as388453/Peano/src/tarch/multicore/omp/Core.cpp,line:63)
+ 31218000     00:00:00     rank:7       core:3       warning      tarch::multicore::native(omp)::Core::configure()        Unmasked threads: (oxxxxxxxxxxxxxxxxxxxxxxxoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo) (file:/work/as388453/Peano/src/tarch/multicore/omp/Core.cpp,line:64)
+ 31851000     00:00:00     rank:1       core:3       warning      tarch::multicore::native(omp)::Core::configure()        Number of configured threads (89) is bigger than available unmasked threads (23) (file:/work/as388453/Peano/src/tarch/multicore/omp/Core.cpp,line:63)
+ 31881000     00:00:00     rank:1       core:3       warning      tarch::multicore::native(omp)::Core::configure()        Unmasked threads: (oxxxxxxxxxxxxxxxxxxxxxxxoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo) (file:/work/as388453/Peano/src/tarch/multicore/omp/Core.cpp,line:64)
+ 31493000     00:00:00     rank:6       core:3       warning      tarch::multicore::native(omp)::Core::configure()        Number of configured threads (89) is bigger than available unmasked threads (23) (file:/work/as388453/Peano/src/tarch/multicore/omp/Core.cpp,line:63)
+ 31521000     00:00:00     rank:6       core:3       warning      tarch::multicore::native(omp)::Core::configure()        Unmasked threads: (oxxxxxxxxxxxxxxxxxxxxxxxoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo) (file:/work/as388453/Peano/src/tarch/multicore/omp/Core.cpp,line:64)
+ 94734000     00:00:00     rank:0       core:14      info         ::step()                                                Starting AlgorithmicStep [CreateGridButPostponeRefinement, #Trees=0, #Cells=9]
+ 96491000     00:00:00     rank:0       core:14      info         ::step()                                                Starting AlgorithmicStep [CreateGrid, #Trees=1, #Cells=9]
+ 99047000     00:00:00     rank:0       core:14      info         ::step()                                                Starting AlgorithmicStep [CreateGrid, #Trees=1, #Cells=9]
+ 101533000    00:00:00     rank:0       core:14      info         ::step()                                                Starting AlgorithmicStep [CreateGrid, #Trees=1, #Cells=9]
+ 173569000    00:00:00     rank:0       core:14      info         ::step()                                                Starting AlgorithmicStep [CreateGridButPostponeRefinement, #Trees=1, #Cells=81]
+ 176151000    00:00:00     rank:0       core:14      info         ::step()                                                Starting AlgorithmicStep [CreateGridButPostponeRefinement, #Trees=8, #Cells=153]
+ 183578000    00:00:00     rank:0       core:14      info         ::step()                                                Starting AlgorithmicStep [CreateGridButPostponeRefinement, #Trees=8, #Cells=81]
+ 195276000    00:00:00     rank:0       core:14      info         ::step()                                                Starting AlgorithmicStep [CreateGrid, #Trees=8, #Cells=729]
+ 202178000    00:00:00     rank:0       core:14      info         ::step()                                                Starting AlgorithmicStep [CreateGrid, #Trees=8, #Cells=729]
+ 232279000    00:00:00     rank:0       core:14      info         ::step()                                                Starting AlgorithmicStep [CreateGridButPostponeRefinement, #Trees=16, #Cells=729]
+ 265376000    00:00:00     rank:0       core:14      info         ::step()                                                Starting AlgorithmicStep [CreateGridButPostponeRefinement, #Trees=16, #Cells=873]
+ 329614000    00:00:00     rank:0       core:14      info         ::step()                                                Starting AlgorithmicStep [CreateGrid, #Trees=16, #Cells=5697]
+ 481156000    00:00:00     rank:0       core:14      info         ::step()                                                Starting AlgorithmicStep [CreateGridButPostponeRefinement, #Trees=72, #Cells=6561]
+ 547135000    00:00:00     rank:0       core:14      info         ::step()                                                Starting AlgorithmicStep [CreateGrid, #Trees=72, #Cells=11097]
+ 743434000    00:00:00     rank:0       core:14      info         ::step()                                                Starting AlgorithmicStep [CreateGridButPostponeRefinement, #Trees=72, #Cells=6561]
+ 803484000    00:00:00     rank:0       core:14      info         ::step()                                                Starting AlgorithmicStep [CreateGrid, #Trees=72, #Cells=59049]
+ 884487000    00:00:00     rank:0       core:14      info         ::step()                                                Starting AlgorithmicStep [CreateGrid, #Trees=72, #Cells=59049]
+ 939516000    00:00:00     rank:0       core:14      info         ::step()                                                Starting AlgorithmicStep [CreateGrid, #Trees=72, #Cells=59049]
+ 996047000    00:00:00     rank:0       core:14      info         ::step()                                                Starting AlgorithmicStep [CreateGrid, #Trees=72, #Cells=59049]
+ 1045032000   00:00:01     rank:0       core:14      info         ::step()                                                Starting AlgorithmicStep [CreateGrid, #Trees=72, #Cells=59049]
+ 1096118000   00:00:01     rank:0       core:14      info         ::step()                                                Starting AlgorithmicStep [CreateGrid, #Trees=72, #Cells=59049]
+ 1148137000   00:00:01     rank:0       core:14      info         ::step()                                                Starting AlgorithmicStep [CreateGrid, #Trees=72, #Cells=59049]
+ 1204673000   00:00:01     rank:0       core:14      info         ::step()                                                Starting AlgorithmicStep [CreateGrid, #Trees=72, #Cells=59049]
+ 1249788000   00:00:01     rank:0       core:14      info         ::step()                                                Starting AlgorithmicStep [CreateGridAndConvergeLoadBalancing, #Trees=72, #Cells=59049]
+ 1296084000   00:00:01     rank:0       core:14      info         ::step()                                                Starting AlgorithmicStep [CreateGridAndConvergeLoadBalancing, #Trees=72, #Cells=59049]
+ 1344016000   00:00:01     rank:0       core:14      info         ::step()                                                Starting AlgorithmicStep [CreateGridAndConvergeLoadBalancing, #Trees=72, #Cells=59049]
+ 1392980000   00:00:01     rank:0       core:14      info         ::step()                                                Starting AlgorithmicStep [CreateGridAndConvergeLoadBalancing, #Trees=72, #Cells=59049]
+ 1438739000   00:00:01     rank:0       core:14      info         ::step()                                                Starting AlgorithmicStep [InitGrid, #Trees=72, #Cells=59049]
+ 1438718000   00:00:01     rank:0       core:14      info         toolbox::loadbalancing::dumpStatistics()                9 tree(s): (#0:729/272)(#8:729/552)(#16:729/552)(#24:729/400)(#32:729/400)(#40:729/552)(#48:729/552)(#56:729/400)(#64:729/400) total=6561/4080 (local/virtual)
+ 1438290000   00:00:01     rank:4       core:3       info         toolbox::loadbalancing::dumpStatistics()                9 tree(s): (#4:729/592)(#12:729/592)(#20:729/592)(#28:729/592)(#36:729/592)(#44:729/592)(#52:729/592)(#60:729/592)(#68:729/592) total=6561/5328 (local/virtual)
+ 1438155000   00:00:01     rank:6       core:17      info         toolbox::loadbalancing::dumpStatistics()                9 tree(s): (#6:729/400)(#14:729/400)(#22:729/552)(#30:729/552)(#38:729/552)(#46:729/552)(#54:729/400)(#62:729/272)(#70:729/400) total=6561/4080 (local/virtual)
+ 1439223000   00:00:01     rank:2       core:15      info         toolbox::loadbalancing::dumpStatistics()                9 tree(s): (#2:729/400)(#10:729/400)(#18:729/400)(#26:729/272)(#34:729/400)(#42:729/552)(#50:729/552)(#58:729/552)(#66:729/552) total=6561/4080 (local/virtual)
+ 1438526000   00:00:01     rank:1       core:12      info         toolbox::loadbalancing::dumpStatistics()                9 tree(s): (#1:1458/391)(#9:1458/519)(#17:1458/623)(#25:1458/775)(#33:1458/775)(#41:1458/775)(#49:1458/607)(#57:1458/607)(#65:1458/607) total=13122/5679 (local/virtual)
+ 1437500000   00:00:01     rank:3       core:13      info         toolbox::loadbalancing::dumpStatistics()                9 tree(s): (#3:729/568)(#11:729/416)(#19:729/568)(#27:729/568)(#35:729/568)(#43:729/568)(#51:729/416)(#59:729/416)(#67:729/568) total=6561/4656 (local/virtual)
+ 1437873000   00:00:01     rank:7       core:2       info         toolbox::loadbalancing::dumpStatistics()                9 tree(s): (#7:729/568)(#15:729/416)(#23:729/416)(#31:729/416)(#39:729/568)(#47:729/568)(#55:729/568)(#63:729/568)(#71:729/568) total=6561/4656 (local/virtual)
+ 1437702000   00:00:01     rank:5       core:3       info         toolbox::loadbalancing::dumpStatistics()                9 tree(s): (#5:729/416)(#13:729/568)(#21:729/568)(#29:729/416)(#37:729/416)(#45:729/568)(#53:729/568)(#61:729/568)(#69:729/568) total=6561/4656 (local/virtual)
+ 3473965000   00:00:03     rank:0       core:14      info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 3508940000   00:00:03     rank:0       core:14      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 3508944000   00:00:03     rank:0       core:14      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 0
+ 3508952000   00:00:03     rank:0       core:14      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 3508956000   00:00:03     rank:0       core:14      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 3508960000   00:00:03     rank:0       core:14      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 3508963000   00:00:03     rank:0       core:14      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 3474022000   00:00:03     rank:0       core:14      info         ::step()                                                Average cell updates per second: 72932.5
+ 12277168000  00:00:12     rank:0       core:14      info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 12312217000  00:00:12     rank:0       core:14      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 12312223000  00:00:12     rank:0       core:14      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 13.2429
+ 12312238000  00:00:12     rank:0       core:14      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 12312243000  00:00:12     rank:0       core:14      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 12312247000  00:00:12     rank:0       core:14      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 12312250000  00:00:12     rank:0       core:14      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 12277310000  00:00:12     rank:0       core:14      info         ::step()                                                Average cell updates per second: 215302
+ 22068228000  00:00:22     rank:0       core:15      info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 22103225000  00:00:22     rank:0       core:15      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 22103231000  00:00:22     rank:0       core:15      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 31.4519
+ 22103246000  00:00:22     rank:0       core:15      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 22103251000  00:00:22     rank:0       core:15      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 22103255000  00:00:22     rank:0       core:15      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 22103258000  00:00:22     rank:0       core:15      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 22068318000  00:00:22     rank:0       core:15      info         ::step()                                                Average cell updates per second: 239558
+ 32146332000  00:00:32     rank:0       core:14      info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 32181317000  00:00:32     rank:0       core:14      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 32181322000  00:00:32     rank:0       core:14      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 50.4887
+ 32181333000  00:00:32     rank:0       core:14      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 32181336000  00:00:32     rank:0       core:14      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 32181340000  00:00:32     rank:0       core:14      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 32181343000  00:00:32     rank:0       core:14      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 32146402000  00:00:32     rank:0       core:14      info         ::step()                                                Average cell updates per second: 249532
+ 42233196000  00:00:42     rank:0       core:20      info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 42268182000  00:00:42     rank:0       core:20      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 42268187000  00:00:42     rank:0       core:20      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 70.353
+ 42268199000  00:00:42     rank:0       core:20      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 42268204000  00:00:42     rank:0       core:20      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 42268208000  00:00:42     rank:0       core:20      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 42268212000  00:00:42     rank:0       core:20      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 42233271000  00:00:42     rank:0       core:20      info         ::step()                                                Average cell updates per second: 257396
+ 51858155000  00:00:51     rank:0       core:12      info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 51893153000  00:00:51     rank:0       core:12      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 51893158000  00:00:51     rank:0       core:12      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 88.5621
+ 51893174000  00:00:51     rank:0       core:12      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 51893178000  00:00:51     rank:0       core:12      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 51893182000  00:00:51     rank:0       core:12      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 51893186000  00:00:51     rank:0       core:12      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 51858246000  00:00:51     rank:0       core:12      info         ::step()                                                Average cell updates per second: 259814
+ 61972326000  00:01:01     rank:0       core:12      info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 62007311000  00:01:02     rank:0       core:12      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 62007316000  00:01:02     rank:0       core:12      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 109.254
+ 62007328000  00:01:02     rank:0       core:12      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 62007332000  00:01:02     rank:0       core:12      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 62007336000  00:01:02     rank:0       core:12      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 62007340000  00:01:02     rank:0       core:12      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 61972399000  00:01:01     rank:0       core:12      info         ::step()                                                Average cell updates per second: 265217
+ 71946870000  00:01:11     rank:0       core:13      info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 71981858000  00:01:11     rank:0       core:13      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 71981863000  00:01:11     rank:0       core:13      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 129.946
+ 71981877000  00:01:11     rank:0       core:13      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 71981882000  00:01:11     rank:0       core:13      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 71981886000  00:01:11     rank:0       core:13      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 71981889000  00:01:11     rank:0       core:13      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 71946949000  00:01:11     rank:0       core:13      info         ::step()                                                Average cell updates per second: 269600
+ 82059381000  00:01:22     rank:0       core:13      info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 82094381000  00:01:22     rank:0       core:13      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 82094386000  00:01:22     rank:0       core:13      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 150.638
+ 82094401000  00:01:22     rank:0       core:13      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 82094406000  00:01:22     rank:0       core:13      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 82094410000  00:01:22     rank:0       core:13      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 82094413000  00:01:22     rank:0       core:13      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 82059472000  00:01:22     rank:0       core:13      info         ::step()                                                Average cell updates per second: 272422
+ 91968057000  00:01:31     rank:0       core:14      info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 92003045000  00:01:32     rank:0       core:14      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 92003050000  00:01:32     rank:0       core:14      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 170.503
+ 92003062000  00:01:32     rank:0       core:14      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 92003067000  00:01:32     rank:0       core:14      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 92003071000  00:01:32     rank:0       core:14      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 92003074000  00:01:32     rank:0       core:14      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 91968133000  00:01:31     rank:0       core:14      info         ::step()                                                Average cell updates per second: 273923
+ 101869920000 00:01:41     rank:0       core:14      info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 101904918000 00:01:41     rank:0       core:14      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 101904924000 00:01:41     rank:0       core:14      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 191.195
+ 101904940000 00:01:41     rank:0       core:14      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 101904944000 00:01:41     rank:0       core:14      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 101904948000 00:01:41     rank:0       core:14      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 101904951000 00:01:41     rank:0       core:14      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 101870011000 00:01:41     rank:0       core:14      info         ::step()                                                Average cell updates per second: 276325
+ 112859634000 00:01:52     rank:0       core:17      info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 112894614000 00:01:52     rank:0       core:17      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 112894618000 00:01:52     rank:0       core:17      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 211.059
+ 112894629000 00:01:52     rank:0       core:17      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 112894632000 00:01:52     rank:0       core:17      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 112894635000 00:01:52     rank:0       core:17      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 112894638000 00:01:52     rank:0       core:17      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 112859697000 00:01:52     rank:0       core:17      info         ::step()                                                Average cell updates per second: 274504
+ 122198901000 00:02:02     rank:0       core:16      info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 122233888000 00:02:02     rank:0       core:16      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 122233893000 00:02:02     rank:0       core:16      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 230.924
+ 122233905000 00:02:02     rank:0       core:16      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 122233909000 00:02:02     rank:0       core:16      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 122233913000 00:02:02     rank:0       core:16      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 122233917000 00:02:02     rank:0       core:16      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 122198976000 00:02:02     rank:0       core:16      info         ::step()                                                Average cell updates per second: 276755
+ 132109120000 00:02:12     rank:0       core:17      info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 132144108000 00:02:12     rank:0       core:17      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 132144114000 00:02:12     rank:0       core:17      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 251.616
+ 132144126000 00:02:12     rank:0       core:17      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 132144131000 00:02:12     rank:0       core:17      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 132144135000 00:02:12     rank:0       core:17      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 132144138000 00:02:12     rank:0       core:17      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 132109198000 00:02:12     rank:0       core:17      info         ::step()                                                Average cell updates per second: 278367
+ 142084137000 00:02:22     rank:0       core:17      info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 142119123000 00:02:22     rank:0       core:17      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 142119128000 00:02:22     rank:0       core:17      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 273.135
+ 142119141000 00:02:22     rank:0       core:17      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 142119145000 00:02:22     rank:0       core:17      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 142119149000 00:02:22     rank:0       core:17      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 142119153000 00:02:22     rank:0       core:17      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 142084213000 00:02:22     rank:0       core:17      info         ::step()                                                Average cell updates per second: 280463
+ 152097368000 00:02:32     rank:0       core:17      info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 152132355000 00:02:32     rank:0       core:17      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 152132360000 00:02:32     rank:0       core:17      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 294.655
+ 152132372000 00:02:32     rank:0       core:17      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 152132377000 00:02:32     rank:0       core:17      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 152132381000 00:02:32     rank:0       core:17      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 152132384000 00:02:32     rank:0       core:17      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 152097444000 00:02:32     rank:0       core:17      info         ::step()                                                Average cell updates per second: 282210
+ 162164388000 00:02:42     rank:0       core:17      info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 162199374000 00:02:42     rank:0       core:17      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 162199378000 00:02:42     rank:0       core:17      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 316.175
+ 162199391000 00:02:42     rank:0       core:17      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 162199395000 00:02:42     rank:0       core:17      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 162199399000 00:02:42     rank:0       core:17      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 162199402000 00:02:42     rank:0       core:17      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 162164462000 00:02:42     rank:0       core:17      info         ::step()                                                Average cell updates per second: 283643
+ 171983717000 00:02:51     rank:0       core:19      info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 172018713000 00:02:52     rank:0       core:19      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 172018718000 00:02:52     rank:0       core:19      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 336.039
+ 172018730000 00:02:52     rank:0       core:19      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 172018734000 00:02:52     rank:0       core:19      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 172018738000 00:02:52     rank:0       core:19      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 172018741000 00:02:52     rank:0       core:19      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 171983801000 00:02:51     rank:0       core:19      info         ::step()                                                Average cell updates per second: 283933
+ 182205622000 00:03:02     rank:0       core:20      info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 182240611000 00:03:02     rank:0       core:20      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 182240615000 00:03:02     rank:0       core:20      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 357.559
+ 182240627000 00:03:02     rank:0       core:20      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 182240631000 00:03:02     rank:0       core:20      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 182240635000 00:03:02     rank:0       core:20      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 182240638000 00:03:02     rank:0       core:20      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 182205698000 00:03:02     rank:0       core:20      info         ::step()                                                Average cell updates per second: 284867
+ 191928306000 00:03:11     rank:0       core:21      info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 191963302000 00:03:11     rank:0       core:21      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 191963308000 00:03:11     rank:0       core:21      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 378.251
+ 191963323000 00:03:11     rank:0       core:21      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 191963328000 00:03:11     rank:0       core:21      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 191963331000 00:03:11     rank:0       core:21      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 191963334000 00:03:11     rank:0       core:21      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 191928394000 00:03:11     rank:0       core:21      info         ::step()                                                Average cell updates per second: 285830
+ 202113936000 00:03:22     rank:0       core:22      info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 202148924000 00:03:22     rank:0       core:22      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 202148929000 00:03:22     rank:0       core:22      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 399.771
+ 202148942000 00:03:22     rank:0       core:22      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 202148946000 00:03:22     rank:0       core:22      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 202148950000 00:03:22     rank:0       core:22      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 202148953000 00:03:22     rank:0       core:22      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 202114014000 00:03:22     rank:0       core:22      info         ::step()                                                Average cell updates per second: 286626
+ 212036495000 00:03:32     rank:0       core:23      info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 212071489000 00:03:32     rank:0       core:23      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 212071494000 00:03:32     rank:0       core:23      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 420.463
+ 212071506000 00:03:32     rank:0       core:23      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 212071511000 00:03:32     rank:0       core:23      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 212071515000 00:03:32     rank:0       core:23      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 212071518000 00:03:32     rank:0       core:23      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 212036578000 00:03:32     rank:0       core:23      info         ::step()                                                Average cell updates per second: 287143
+ 222143087000 00:03:42     rank:0       core:23      info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 222178073000 00:03:42     rank:0       core:23      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 222178078000 00:03:42     rank:0       core:23      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 441.983
+ 222178091000 00:03:42     rank:0       core:23      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 222178095000 00:03:42     rank:0       core:23      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 222178099000 00:03:42     rank:0       core:23      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 222178102000 00:03:42     rank:0       core:23      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 222143162000 00:03:42     rank:0       core:23      info         ::step()                                                Average cell updates per second: 287909
+ 232191669000 00:03:52     rank:0       core:23      info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 232226663000 00:03:52     rank:0       core:23      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 232226668000 00:03:52     rank:0       core:23      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 461.426
+ 232226680000 00:03:52     rank:0       core:23      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 232226685000 00:03:52     rank:0       core:23      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 232226688000 00:03:52     rank:0       core:23      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 232226691000 00:03:52     rank:0       core:23      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 232191751000 00:03:52     rank:0       core:23      info         ::step()                                                Average cell updates per second: 287654
+ 241901678000 00:04:01     rank:0       core:23      info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 241936664000 00:04:01     rank:0       core:23      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 241936670000 00:04:01     rank:0       core:23      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 482.118
+ 241936682000 00:04:01     rank:0       core:23      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 241936687000 00:04:01     rank:0       core:23      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 241936691000 00:04:01     rank:0       core:23      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 241936694000 00:04:01     rank:0       core:23      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 241901754000 00:04:01     rank:0       core:23      info         ::step()                                                Average cell updates per second: 288319
+ 251936205000 00:04:11     rank:0       core:23      info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 251971191000 00:04:11     rank:0       core:23      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 251971196000 00:04:11     rank:0       core:23      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 502.81
+ 251971209000 00:04:11     rank:0       core:23      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 251971213000 00:04:11     rank:0       core:23      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 251971217000 00:04:11     rank:0       core:23      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 251971221000 00:04:11     rank:0       core:23      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 251936281000 00:04:11     rank:0       core:23      info         ::step()                                                Average cell updates per second: 288557
+ 262051336000 00:04:22     rank:0       core:12      info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 262086326000 00:04:22     rank:0       core:12      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 262086332000 00:04:22     rank:0       core:12      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 524.33
+ 262086344000 00:04:22     rank:0       core:12      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 262086349000 00:04:22     rank:0       core:12      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 262086353000 00:04:22     rank:0       core:12      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 262086356000 00:04:22     rank:0       core:12      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 262051416000 00:04:22     rank:0       core:12      info         ::step()                                                Average cell updates per second: 289141
+ 272069433000 00:04:32     rank:0       core:12      info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 272104430000 00:04:32     rank:0       core:12      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 272104435000 00:04:32     rank:0       core:12      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 545.431
+ 272104451000 00:04:32     rank:0       core:12      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 272104455000 00:04:32     rank:0       core:12      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 272104459000 00:04:32     rank:0       core:12      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 272104462000 00:04:32     rank:0       core:12      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 272069522000 00:04:32     rank:0       core:12      info         ::step()                                                Average cell updates per second: 289785
+ 282131645000 00:04:42     rank:0       core:8       info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 282166631000 00:04:42     rank:0       core:8       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 282166637000 00:04:42     rank:0       core:8       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 566.95
+ 282166650000 00:04:42     rank:0       core:8       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 282166654000 00:04:42     rank:0       core:8       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 282166658000 00:04:42     rank:0       core:8       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 282166661000 00:04:42     rank:0       core:8       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 282131721000 00:04:42     rank:0       core:8       info         ::step()                                                Average cell updates per second: 290338
+ 292216657000 00:04:52     rank:0       core:9       info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 292251646000 00:04:52     rank:0       core:9       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 292251651000 00:04:52     rank:0       core:9       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 587.187
+ 292251663000 00:04:52     rank:0       core:9       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 292251668000 00:04:52     rank:0       core:9       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 292251671000 00:04:52     rank:0       core:9       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 292251675000 00:04:52     rank:0       core:9       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 292216734000 00:04:52     rank:0       core:9       info         ::step()                                                Average cell updates per second: 290423
+ 301909635000 00:05:01     rank:0       core:1       info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 301944622000 00:05:01     rank:0       core:1       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 301944628000 00:05:01     rank:0       core:1       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 606.223
+ 301944640000 00:05:01     rank:0       core:1       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 301944645000 00:05:01     rank:0       core:1       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 301944649000 00:05:01     rank:0       core:1       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 301944652000 00:05:01     rank:0       core:1       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 301909712000 00:05:01     rank:0       core:1       info         ::step()                                                Average cell updates per second: 290094
+ 312236342000 00:05:12     rank:0       core:1       info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 312271330000 00:05:12     rank:0       core:1       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 312271335000 00:05:12     rank:0       core:1       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 627.743
+ 312271348000 00:05:12     rank:0       core:1       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 312271353000 00:05:12     rank:0       core:1       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 312271357000 00:05:12     rank:0       core:1       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 312271360000 00:05:12     rank:0       core:1       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 312236420000 00:05:12     rank:0       core:1       info         ::step()                                                Average cell updates per second: 290336
+ 322173771000 00:05:22     rank:0       core:3       info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 322208760000 00:05:22     rank:0       core:3       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 322208765000 00:05:22     rank:0       core:3       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 648.435
+ 322208778000 00:05:22     rank:0       core:3       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 322208782000 00:05:22     rank:0       core:3       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 322208786000 00:05:22     rank:0       core:3       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 322208789000 00:05:22     rank:0       core:3       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 322173849000 00:05:22     rank:0       core:3       info         ::step()                                                Average cell updates per second: 290546
+ 331887164000 00:05:31     rank:0       core:5       info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 331922186000 00:05:31     rank:0       core:5       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 331922192000 00:05:31     rank:0       core:5       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 668.3
+ 331922204000 00:05:31     rank:0       core:5       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 331922209000 00:05:31     rank:0       core:5       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 331922213000 00:05:31     rank:0       core:5       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 331922216000 00:05:31     rank:0       core:5       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 331887276000 00:05:31     rank:0       core:5       info         ::step()                                                Average cell updates per second: 290584
+ 342199687000 00:05:42     rank:0       core:5       info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 342234674000 00:05:42     rank:0       core:5       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 342234680000 00:05:42     rank:0       core:5       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 690.647
+ 342234692000 00:05:42     rank:0       core:5       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 342234696000 00:05:42     rank:0       core:5       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 342234700000 00:05:42     rank:0       core:5       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 342234703000 00:05:42     rank:0       core:5       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 342199763000 00:05:42     rank:0       core:5       info         ::step()                                                Average cell updates per second: 291149
+ 352054584000 00:05:52     rank:0       core:5       info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 352089584000 00:05:52     rank:0       core:5       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 352089589000 00:05:52     rank:0       core:5       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 710.511
+ 352089606000 00:05:52     rank:0       core:5       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 352089611000 00:05:52     rank:0       core:5       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 352089614000 00:05:52     rank:0       core:5       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 352089618000 00:05:52     rank:0       core:5       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 352054678000 00:05:52     rank:0       core:5       info         ::step()                                                Average cell updates per second: 291050
+ 361930235000 00:06:01     rank:0       core:6       info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 361965225000 00:06:01     rank:0       core:6       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 361965230000 00:06:01     rank:0       core:6       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 731.204
+ 361965243000 00:06:01     rank:0       core:6       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 361965247000 00:06:01     rank:0       core:6       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 361965251000 00:06:01     rank:0       core:6       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 361965254000 00:06:01     rank:0       core:6       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 361930314000 00:06:01     rank:0       core:6       info         ::step()                                                Average cell updates per second: 291267
+ 372227908000 00:06:12     rank:0       core:8       info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 372262897000 00:06:12     rank:0       core:8       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 372262902000 00:06:12     rank:0       core:8       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 753.551
+ 372262915000 00:06:12     rank:0       core:8       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 372262919000 00:06:12     rank:0       core:8       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 372262923000 00:06:12     rank:0       core:8       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 372262926000 00:06:12     rank:0       core:8       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 372227986000 00:06:12     rank:0       core:8       info         ::step()                                                Average cell updates per second: 291779
+ 381966966000 00:06:21     rank:0       core:9       info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 382001954000 00:06:22     rank:0       core:9       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 382001959000 00:06:22     rank:0       core:9       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 774.243
+ 382001971000 00:06:22     rank:0       core:9       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 382001975000 00:06:22     rank:0       core:9       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 382001979000 00:06:22     rank:0       core:9       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 382001983000 00:06:22     rank:0       core:9       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 381967042000 00:06:21     rank:0       core:9       info         ::step()                                                Average cell updates per second: 292071
+ 391987449000 00:06:31     rank:0       core:9       info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 392022437000 00:06:32     rank:0       core:9       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 392022442000 00:06:32     rank:0       core:9       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 793.952
+ 392022454000 00:06:32     rank:0       core:9       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 392022459000 00:06:32     rank:0       core:9       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 392022463000 00:06:32     rank:0       core:9       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 392022466000 00:06:32     rank:0       core:9       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 391987526000 00:06:31     rank:0       core:9       info         ::step()                                                Average cell updates per second: 292440
+ 402040660000 00:06:42     rank:0       core:10      info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 402075651000 00:06:42     rank:0       core:10      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 402075656000 00:06:42     rank:0       core:10      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 815.472
+ 402075668000 00:06:42     rank:0       core:10      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.035562
+ 402075673000 00:06:42     rank:0       core:10      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 402075677000 00:06:42     rank:0       core:10      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 402075681000 00:06:42     rank:0       core:10      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 7232.48
+ 402040740000 00:06:42     rank:0       core:10      info         ::step()                                                Average cell updates per second: 292767
+ 412220479000 00:06:52     rank:0       core:10      info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 412255467000 00:06:52     rank:0       core:10      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 412255478000 00:06:52     rank:0       core:10      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 833.557
+ 412255490000 00:06:52     rank:0       core:10      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 412255495000 00:06:52     rank:0       core:10      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 412255499000 00:06:52     rank:0       core:10      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 412255502000 00:06:52     rank:0       core:10      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 412220562000 00:06:52     rank:0       core:10      info         ::step()                                                Average cell updates per second: 292700
+ 422122914000 00:07:02     rank:0       core:10      info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 422157900000 00:07:02     rank:0       core:10      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 422157907000 00:07:02     rank:0       core:10      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 853.421
+ 422157919000 00:07:02     rank:0       core:10      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 422157924000 00:07:02     rank:0       core:10      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 422157928000 00:07:02     rank:0       core:10      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 422157931000 00:07:02     rank:0       core:10      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 422122991000 00:07:02     rank:0       core:10      info         ::step()                                                Average cell updates per second: 292548
+ 431965270000 00:07:11     rank:0       core:10      info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 432000256000 00:07:12     rank:0       core:10      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 432000261000 00:07:12     rank:0       core:10      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 874.113
+ 432000274000 00:07:12     rank:0       core:10      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 432000278000 00:07:12     rank:0       core:10      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 432000282000 00:07:12     rank:0       core:10      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 432000285000 00:07:12     rank:0       core:10      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 431965345000 00:07:11     rank:0       core:10      info         ::step()                                                Average cell updates per second: 292718
+ 442029491000 00:07:22     rank:0       core:11      info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 442064480000 00:07:22     rank:0       core:11      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 442064486000 00:07:22     rank:0       core:11      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 895.633
+ 442064498000 00:07:22     rank:0       core:11      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 442064503000 00:07:22     rank:0       core:11      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 442064506000 00:07:22     rank:0       core:11      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 442064510000 00:07:22     rank:0       core:11      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 442029570000 00:07:22     rank:0       core:11      info         ::step()                                                Average cell updates per second: 293001
+ 452079767000 00:07:32     rank:0       core:11      info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 452114754000 00:07:32     rank:0       core:11      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 452114759000 00:07:32     rank:0       core:11      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 916.091
+ 452114771000 00:07:32     rank:0       core:11      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 452114776000 00:07:32     rank:0       core:11      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 452114780000 00:07:32     rank:0       core:11      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 452114783000 00:07:32     rank:0       core:11      info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 452079843000 00:07:32     rank:0       core:11      info         ::step()                                                Average cell updates per second: 293281
+ 462194161000 00:07:42     rank:0       core:3       info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 462229149000 00:07:42     rank:0       core:3       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 462229154000 00:07:42     rank:0       core:3       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 937.61
+ 462229166000 00:07:42     rank:0       core:3       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 462229171000 00:07:42     rank:0       core:3       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 462229175000 00:07:42     rank:0       core:3       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 462229178000 00:07:42     rank:0       core:3       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 462194238000 00:07:42     rank:0       core:3       info         ::step()                                                Average cell updates per second: 293508
+ 472021025000 00:07:52     rank:0       core:4       info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 472056012000 00:07:52     rank:0       core:4       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 472056017000 00:07:52     rank:0       core:4       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 957.475
+ 472056029000 00:07:52     rank:0       core:4       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 472056034000 00:07:52     rank:0       core:4       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 472056038000 00:07:52     rank:0       core:4       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 472056041000 00:07:52     rank:0       core:4       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 472021101000 00:07:52     rank:0       core:4       info         ::step()                                                Average cell updates per second: 293402
+ 482157133000 00:08:02     rank:0       core:4       info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 482192117000 00:08:02     rank:0       core:4       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 482192123000 00:08:02     rank:0       core:4       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 978.994
+ 482192136000 00:08:02     rank:0       core:4       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 482192141000 00:08:02     rank:0       core:4       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 482192145000 00:08:02     rank:0       core:4       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 482192148000 00:08:02     rank:0       core:4       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 482157208000 00:08:02     rank:0       core:4       info         ::step()                                                Average cell updates per second: 293604
+ 492140647000 00:08:12     rank:0       core:4       info         ::step()                                                Starting AlgorithmicStep [TimeStep, #Trees=72, #Cells=59049]
+ 492175633000 00:08:12     rank:0       core:4       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 492175639000 00:08:12     rank:0       core:4       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 999.238
+ 492175651000 00:08:12     rank:0       core:4       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 492175656000 00:08:12     rank:0       core:4       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 514.403 (volume size)
+ 492175660000 00:08:12     rank:0       core:4       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 514.403 (volume size)
+ 492175663000 00:08:12     rank:0       core:4       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 310.749
+ 492140723000 00:08:12     rank:0       core:4       info         ::step()                                                Average cell updates per second: 293648
+ 492236352000 00:08:12     rank:0       core:4       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() Solver FWave32:
+ 492236362000 00:08:12     rank:0       core:4       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() t            = 1000.07
+ 492236367000 00:08:12     rank:0       core:4       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() dt           = 0.827683
+ 492236371000 00:08:12     rank:0       core:4       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{min}      = 2.8089e+306 (volume size)
+ 492236377000 00:08:12     rank:0       core:4       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() h_{max}      = 0 (volume size)
+ 492236381000 00:08:12     rank:0       core:4       info         applications::exahype2::swe::AbstractFWave32::AbstractFWave32::printTimeStep() lambda_{max} = 301.999
+ 492201441000 00:08:12     rank:0       core:4       info         ::main()                                                Terminated successfully
+ 492201444000 00:08:12     rank:0       core:4       info         ::main()                                                Average cell updates per second: 293732
+ 492201448000 00:08:12     rank:0       core:4       info         ::main()                                                Average time per mesh sweep:     0.20103s	
+ 492201452000 00:08:12     rank:0       core:4       info         ::main()                                                Time stepping:                   490.313s	(avg=0.20103,#measurements=2439,max=1.30095(value #1),min=0.0592384(value #420),+547.139%,-70.5326%,std-deviation=0.135895)
+ 492201463000 00:08:12     rank:0       core:4       info         ::main()                                                Initial grid construction:       1.82161s	(avg=0.0628143,#measurements=29,max=0.415861(value #28),min=0.00172305(value #1),+562.049%,-97.2569%,std-deviation=0.0783552)
+ 492201415000 00:08:12     rank:0       core:4       info         toolbox::loadbalancing::dumpStatistics()                9 tree(s): (#0:729/272)(#8:729/552)(#16:729/552)(#24:729/400)(#32:729/400)(#40:729/552)(#48:729/552)(#56:729/400)(#64:729/400) total=6561/4080 (local/virtual)
+ 492242558000 00:08:12     rank:4       core:16      info         toolbox::loadbalancing::dumpStatistics()                9 tree(s): (#4:729/592)(#12:729/592)(#20:729/592)(#28:729/592)(#36:729/592)(#44:729/592)(#52:729/592)(#60:729/592)(#68:729/592) total=6561/5328 (local/virtual)
+ 492243158000 00:08:12     rank:1       core:23      info         toolbox::loadbalancing::dumpStatistics()                9 tree(s): (#1:1458/391)(#9:1458/519)(#17:1458/623)(#25:1458/775)(#33:1458/775)(#41:1458/775)(#49:1458/607)(#57:1458/607)(#65:1458/607) total=13122/5679 (local/virtual)
+ 492242855000 00:08:12     rank:6       core:18      info         toolbox::loadbalancing::dumpStatistics()                9 tree(s): (#6:729/400)(#14:729/400)(#22:729/552)(#30:729/552)(#38:729/552)(#46:729/552)(#54:729/400)(#62:729/272)(#70:729/400) total=6561/4080 (local/virtual)
+ 492243753000 00:08:12     rank:2       core:7       info         toolbox::loadbalancing::dumpStatistics()                9 tree(s): (#2:729/400)(#10:729/400)(#18:729/400)(#26:729/272)(#34:729/400)(#42:729/552)(#50:729/552)(#58:729/552)(#66:729/552) total=6561/4080 (local/virtual)
+ 492242262000 00:08:12     rank:5       core:12      info         toolbox::loadbalancing::dumpStatistics()                9 tree(s): (#5:729/416)(#13:729/568)(#21:729/568)(#29:729/416)(#37:729/416)(#45:729/568)(#53:729/568)(#61:729/568)(#69:729/568) total=6561/4656 (local/virtual)
+ 492241963000 00:08:12     rank:3       core:10      info         toolbox::loadbalancing::dumpStatistics()                9 tree(s): (#3:729/568)(#11:729/416)(#19:729/568)(#27:729/568)(#35:729/568)(#43:729/568)(#51:729/416)(#59:729/416)(#67:729/568) total=6561/4656 (local/virtual)
+ 492242356000 00:08:12     rank:7       core:14      info         toolbox::loadbalancing::dumpStatistics()                9 tree(s): (#7:729/568)(#15:729/416)(#23:729/416)(#31:729/416)(#39:729/568)(#47:729/568)(#55:729/568)(#63:729/568)(#71:729/568) total=6561/4656 (local/virtual)
+MPICH: Builtin communicator 44000000 has pending 8 references.
+MPICH: Builtin communicator 44000000 has pending 8 references.
+MPICH: Builtin communicator 44000000 has pending 8 references.
+MPICH: Builtin communicator 44000000 has pending 8 references.
+MPICH: Builtin communicator 44000000 has pending 8 references.
+MPICH: Builtin communicator 44000000 has pending 8 references.
+MPICH: Builtin communicator 44000000 has pending 8 references.
+MPICH: Builtin communicator 44000000 has pending 8 references.
+[WARNING] yaksa: 5 leaked handle pool objects
+[WARNING] yaksa: 5 leaked handle pool objects
+[WARNING] yaksa: 5 leaked handle pool objects
+[WARNING] yaksa: 5 leaked handle pool objects
+[WARNING] yaksa: 5 leaked handle pool objects
+[WARNING] yaksa: 5 leaked handle pool objects
+[WARNING] yaksa: 5 leaked handle pool objects
+[WARNING] yaksa: 5 leaked handle pool objects

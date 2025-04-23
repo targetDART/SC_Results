@@ -1,0 +1,15 @@
+duration on process 0: 5.63512
+duration on process 0: 5.5928
+duration on process 0: 5.6148
+duration on process 0: 5.71255
+duration on process 0: 5.5762
+duration on process 0: 5.56689
+duration on process 0: 5.73059
+duration on process 0: 5.63262
+duration on process 0: 5.5559
+duration on process 0: 5.57466
+duration on process 0: 5.62758
+duration on process 0: 5.55878
+duration on process 0: 5.71627
+duration on process 0: 5.59543
+duration on process 0: 5.61338
